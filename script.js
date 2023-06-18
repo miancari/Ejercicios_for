@@ -30,7 +30,15 @@ for (let index = 1; index <= numero; index++) {
 
 /* 3. Crea un programa que recorra el arreglo [4,”dos”,8,”tres”,5,9,1,”cero”] y muestre en consola solo los elementos que son tipo número. */
 
-array = [4 ,"dos", 8, "tres",5,9,1,"cero"]
+let numero = [4 ,"dos", 8, "tres",5,9,1,"cero"];
+
+for (let index = 0; index < numero.length; index++) {
+    if(!isNaN(numero[index])) {
+        console.log(numero[index]);
+    }   
+}
+
+
 
 
 
